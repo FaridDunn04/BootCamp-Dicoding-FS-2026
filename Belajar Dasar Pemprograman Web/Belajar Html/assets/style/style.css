@@ -1,0 +1,48 @@
+body{
+    font-family: 'Quicksand',sans-serif;
+}
+
+h2,h3{
+    color: #00a2c6;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+.profil header{
+    text-align: center;
+}
+
+/*#sejarah{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#geografis p{
+    word-spacing: 1.5em;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+#wisata{
+    letter-spacing: 3px;
+    text-align: left;
+    text-decoration: overline;
+}/*
+

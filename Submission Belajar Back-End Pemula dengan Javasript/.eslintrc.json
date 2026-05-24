@@ -1,0 +1,21 @@
+{
+  "ignorePatterns": [
+    "BookselfAPI/",
+    "node_modules/",
+    "dist/"
+  ],
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "off",
+    "consistent-return": "warn",
+    "linebreak-style": "off"
+  }
+}

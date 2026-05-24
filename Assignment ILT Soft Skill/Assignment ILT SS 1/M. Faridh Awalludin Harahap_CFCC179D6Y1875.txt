@@ -1,0 +1,37 @@
+Nama : M. Faridh Awalludin Harahap
+Assignment : ILT SS 1
+ID Cohort : CFCC179D6Y1875
+
+   Untuk Menyusun prioritas tugas Sofia , Saya menggunakan konsep manajemen waktu dari Stephen R . Covey yang terdapat di dalam bukunya yang berjudul 7 Habits of Highly Effective People, yang membagi aktivitas ke dalam embapt kuadran berdasarkan tingkat penting dan mendesak
+* Kuadran I ( Penting dan Mendesak)
+Tugas dalam kuadran ini harus segera dikerjakan karena berdampak besar dan memiliki batas waktu dekat.
+1. Mempersiapkan infrastruktur migrasi data ke cloud (deadline 3 hari).
+Ini penting karena berkaitan langsung dengan proyek perusahaan dan memiliki tenggat waktu jelas. Jika terlambat, dapat menghambat tim pengembang.
+7. Mempersiapkan laporan kemajuan untuk rapat malam ini.
+Sangat mendesak karena rapat dilakukan malam ini, dan penting karena menyangkut tanggung jawab profesionalnya.
+5. Menghadiri reuni virtual malam ini.
+Mendesak karena waktunya sudah ditentukan (malam ini). Secara emosional juga penting karena menjaga relasi sosial
+* Kuadran II (Penting dan Tidak Mendesak)
+Aktivitas ini penting untuk jangka panjang, tetapi tidak harus diselesaikan segera hari ini.
+6. Mengunjungi dokter karena nyeri punggung.
+Penting untuk kesehatan jangka panjang, tetapi tidak dalam kondisi darurat. Jika diabaikan, bisa menjadi masalah serius.
+3. Mencari dan membeli hadiah ulang tahun ibu (minggu depan).
+Penting secara personal dan emosional, tetapi masih ada waktu sebelum hari ulang tahunnya.
+* Kuadran III ( Tidak Penting dan Mendesak )
+Aktivitas yang terasa mendesak, tetapi dampaknya tidak terlalu besar terhadap tujuan utama.
+2. Pemeliharaan harian dan siaga shift kerja.
+Mendesak karena bagian dari rutinitas kerja, tetapi tidak sepenting proyek migrasi cloud atau laporan strategis.
+4. Berbelanja bahan makanan untuk pesta akhir pekan depan.
+Terasa mendesak jika ingin persiapan awal, tetapi masih bisa dijadwalkan beberapa hari kemudian.
+* Kuadran IV ( Tidak Penting dan Tidak Mendesak )
+Aktivitas yang bersifat hiburan dan bisa ditunda.
+8. Menonton 3 episode terakhir serial TV favoritnya.
+Tidak mendesak dan tidak berdampak pada pekerjaan atau kewajiban penting lainnya.
+
+Kesimpulan
+      Berdasarkan pembagian kuadran manajemen waktu, Sofia sebaiknya memprioritaskan tugas di Kuadran I terlebih dahulu karena bersifat penting dan mendesak, terutama yang berkaitan dengan tanggung jawab profesionalnya seperti migrasi data dan laporan rapat. Kuadran II perlu dijadwalkan secara terencana karena menyangkut kesehatan dan hubungan keluarga yang penting untuk keseimbangan hidup. Kuadran III dapat didelegasikan atau dijadwalkan ulang agar tidak mengganggu fokus utama. Sementara itu, aktivitas Kuadran IV sebaiknya dilakukan setelah semua tanggung jawab utama terselesaikan.
+      Dengan membagi tugas ke dalam empat kuadran ini, Sofia dapat bekerja lebih terarah, mengurangi stres, dan menjaga keseimbangan antara pekerjaan dan kehidupan pribadi.
+      
+
+
+

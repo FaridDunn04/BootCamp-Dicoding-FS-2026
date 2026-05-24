@@ -1,0 +1,21 @@
+Nama : M. Faridh Awalludin
+Assignment : ILT SS 2
+
+
+Rencana Pengembangan Diri Saya
+
+
+      Saat ini saya sedang fokus belajar dan mengembangkan kemampuan di bidang teknologi informasi, khususnya di bidang pengembangan web dan aplikasi. Tujuan saya sekarang adalah menjadi seorang software developer yang memiliki kemampuan yang baik. Untuk mencapai tujuan tersebut, saat ini saya sedang mendalami skill sebagai full-stack developer. Saya belajar melalui berbagai cara seperti mengikuti bootcamp, kursus online, menonton video pembelajaran, serta mencoba latihan coding sendiri.
+
+      Dalam proses belajar tersebut, saya mempelajari beberapa teknologi yang digunakan dalam pembuatan website dan aplikasi. Misalnya seperti HTML, CSS, dan JavaScript untuk bagian tampilan atau frontend, serta belajar juga tentang backend yang digunakan untuk mengelola data dan sistem di belakang aplikasi. Dengan mempelajari kedua bagian tersebut, saya berharap bisa memahami bagaimana sebuah aplikasi dibuat secara lengkap dari awal sampai bisa digunakan oleh pengguna.
+
+      Selain belajar tentang coding, saya juga mencoba meningkatkan kemampuan lain seperti cara berpikir logis, problem solving, dan kemampuan belajar secara mandiri. Menurut saya kemampuan ini sangat penting bagi seorang developer karena dalam proses membuat aplikasi pasti akan ada banyak masalah yang harus diselesaikan. Oleh karena itu saya mencoba untuk terbiasa mencari solusi sendiri, membaca dokumentasi, dan mencoba berbagai cara sampai masalah tersebut bisa diselesaikan.
+
+      Selama proses belajar ini saya menyadari bahwa saya memiliki beberapa kelebihan dan juga kekurangan. Kelebihan saya adalah saya cukup tertarik dengan dunia teknologi dan memiliki rasa ingin tahu yang tinggi untuk mempelajari hal baru. Saya juga cukup menikmati ketika belajar coding atau mencoba membuat program sederhana. Namun saya juga menyadari masih memiliki beberapa kekurangan, seperti pengalaman yang masih belum banyak dalam membuat proyek yang lebih besar dan terkadang masih kurang konsisten dalam belajar.
+
+      Untuk tujuan jangka pendek, saya ingin terus meningkatkan kemampuan saya sebagai software developer. Saya ingin lebih banyak berlatih coding, membuat proyek sederhana, dan memperdalam pemahaman saya tentang frontend dan backend. Dengan begitu saya bisa membangun portofolio yang bisa menunjukkan kemampuan saya di bidang teknologi.
+      Sedangkan untuk tujuan jangka panjang, saya sangat ingin menjadi seorang software engineer yang profesional di bidang full-stack web dan aplikasi. Saya ingin bisa membuat sistem atau aplikasi yang lebih kompleks dan bermanfaat bagi banyak orang. Saya juga ingin terus belajar mengikuti perkembangan teknologi yang selalu berubah.
+
+      Agar tujuan tersebut bisa tercapai, saya juga membuat timeline dan prioritas dalam pengembangan diri saya. Untuk saat ini prioritas utama saya adalah belajar full-stack development melalui bootcamp, latihan coding, dan membuat beberapa proyek. Dalam beberapa tahun ke depan saya berharap kemampuan saya semakin berkembang sehingga saya bisa mencapai tujuan saya untuk menjadi seorang software engineer yang profesional.
+
+

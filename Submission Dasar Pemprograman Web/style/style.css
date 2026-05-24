@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --primary: #3b82f6;
+    --primary-glow: rgba(59, 130, 246, 0.5);
+    --dark-bg: #020617;
+    --dark-card: #0f172a;
+    --header-footer-bg: #0a0f1e; 
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-main);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background: var(--header-footer-bg);
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8%;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+header h1 { font-size: 1.4rem; color: var(--white); font-weight: 700; }
+header h1 span { color: var(--primary); }
+
+nav ul { list-style: none; display: flex; gap: 2rem; align-items: center; }
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    position: relative;
+}
+
+nav ul li a:hover { color: var(--white); }
+nav ul li a:hover::after { width: 100%; }
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; left: 0;
+    width: 0; height: 2px;
+    background: var(--primary);
+    transition: 0.3s;
+}
+
+.nav-dicoding {
+    background: var(--primary);
+    color: var(--white) !important;
+    padding: 8px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px var(--primary-glow);
+}
+.nav-dicoding::after { display: none; }
+
+/* --- Mobile Menu Toggle --- */
+.menu-checkbox { display: none; }
+.menu-button { display: none; cursor: pointer; flex-direction: column; gap: 5px; z-index: 2100; }
+.menu-button .bar { width: 25px; height: 3px; background: var(--white); border-radius: 5px; transition: 0.3s; }
+
+/* --- Layout Sections --- */
+.full-screen-section {
+    min-height: 100vh;
+    padding: 100px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    background: var(--dark-card);
+    padding: 2.5rem;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+h2 { font-size: 2.5rem; margin-bottom: 1.5rem; color: var(--white); letter-spacing: -1px; }
+
+.badge {
+    background: rgba(59, 130, 246, 0.15);
+    color: var(--primary);
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+/* --- About & Aside --- */
+.about-container { display: flex; gap: 50px; align-items: flex-start; }
+.about-text { flex: 1.5; }
+aside { flex: 1; }
+
+.profil-card {
+    background: var(--dark-card);
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.img-frame img {
+    width: 160px; height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary);
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+
+.status { color: var(--primary); font-weight: 700; }
+hr { margin: 1.5rem 0; border: none; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+
+/* --- Social Icons Contact --- */
+.social-icon-only {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 2rem 0;
+}
+
+.icon-box img {
+    width: 45px; height: 45px;
+    object-fit: cover;
+    border-radius: 12px; /* Membuat logo sedikit tumpul di sudut */
+    transition: 0.4s;
+}
+
+.icon-box:hover img {
+    transform: translateY(-8px) scale(1.1);
+    filter: drop-shadow(0 0 10px var(--primary-glow));
+}
+
+.contact-card { text-align: center; max-width: 800px; width: 100%; }
+.btn-contact {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--white);
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 1rem;
+    box-shadow: 0 10px 20px var(--primary-glow);
+    transition: 0.3s;
+}
+.btn-contact:hover { transform: translateY(-3px); box-shadow: 0 15px 25px var(--primary-glow); }
+
+/* --- Footer --- */
+footer {
+    background: var(--header-footer-bg);
+    padding: 3rem 8%;
+    text-align: center;
+    border-top: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.footer-legal { color: var(--text-muted); font-size: 0.85rem; margin-top: 0.5rem; }
+
+/* --- RESPONSIVE DESIGN --- */
+
+@media (max-width: 992px) {
+    .about-container { flex-direction: column; }
+    aside { width: 100%; }
+}
+
+@media (max-width: 768px) {
+    header { padding: 1rem 5%; }
+    .menu-button { display: flex; }
+
+    nav {
+        position: fixed;
+        top: 0; right: -100%;
+        width: 80%; height: 100vh;
+        background: var(--header-footer-bg);
+        padding: 100px 10%;
+        transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+    }
+
+    .menu-checkbox:checked ~ nav { right: 0; }
+
+    nav ul { flex-direction: column; align-items: flex-start; gap: 2.5rem; }
+    nav ul li a { font-size: 1.2rem; }
+
+    /* Animasi Hamburger */
+    .menu-checkbox:checked ~ .menu-button .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+    .menu-checkbox:checked ~ .menu-button .bar:nth-child(2) { opacity: 0; }
+    .menu-checkbox:checked ~ .menu-button .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+    /* Perbaikan Urutan About di HP */
+    .about-container { flex-direction: column; gap: 40px; }
+    .about-text { order: 1; }
+    aside { order: 2; } /* Menjamin biodata di bawah teks */
+
+    h2 { font-size: 2rem; }
+    article { padding: 2rem; }
+}

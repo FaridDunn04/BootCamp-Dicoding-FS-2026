@@ -1,0 +1,51 @@
+Nama : M. Faridh Awalludin Harahap
+Assignment : ILT SS 5
+
+Project Initiation & Project Planning — Path'Ora
+PHASE 1: PROJECT INITIATION
+A. Hasil dan Ekspektasi Proyek
+Proyek Path'Ora bertujuan membangun platform berbasis web yang membantu pencari kerja memahami profil kompetensinya secara otomatis dan mendapatkan rekomendasi jalur karir yang sesuai. Latar belakang proyek ini berasal dari permasalahan nyata yang masih banyak terjadi, yaitu kesenjangan antara kompetensi pencari kerja dengan kebutuhan industri, proses persiapan kerja yang masih manual dan subjektif, serta sulitnya perusahaan menyaring kandidat secara efisien.
+Hasil yang diharapkan tercapai di akhir proyek ini adalah:
+1. Platform Web Online yang Fungsional Platform Path'Ora dapat diakses secara publik dengan fitur utama upload CV, analisis otomatis, dan tampilan rekomendasi karir. Deployment dilakukan menggunakan Vercel, Netlify, atau Google Cloud Platform.
+2. Model Machine Learning dengan Akurasi ? 85% Model klasifikasi kesiapan kerja dibangun menggunakan TensorFlow dan dievaluasi menggunakan metrik accuracy, precision, recall, dan F1-score. Model disimpan dalam format produksi (.keras / SavedModel) dan siap diintegrasikan ke backend.
+3. Sistem NLP untuk Analisis CV Model NLP mampu melakukan parsing CV secara otomatis, mengekstraksi skill dan pengalaman, serta menghasilkan rekomendasi jalur karir yang personal menggunakan pendekatan LLM.
+4. Dashboard Strategis dan Interaktif Dashboard menampilkan visualisasi hasil analisis CV, skill gap, dan rekomendasi karir secara informatif, dibangun menggunakan React.js dan Streamlit.
+5. RESTful API yang Stabil Backend menyediakan API terstruktur yang menghubungkan frontend, model AI/ML, dan database secara terintegrasi.
+
+
+
+
+
+B. Stakeholders / Pemangku Kepentingan
+Berikut adalah seluruh stakeholder yang terlibat dalam proyek Path'Ora beserta peran dan kepentingannya:
+1. Pencari Kerja (Pengguna Utama) Individu yang ingin mengetahui tingkat kesiapan kerja dan mendapat rekomendasi karir berdasarkan profil CV mereka. Mereka adalah pihak yang paling langsung merasakan manfaat dari platform ini.
+2. Perusahaan / HRD (Pengguna Sekunder) Perusahaan dan tim rekrutmen yang dapat memanfaatkan hasil klasifikasi kandidat untuk mempercepat dan mengobjetifkan proses seleksi. Platform ini membantu mereka mendapatkan kandidat yang lebih sesuai dengan kebutuhan posisi.
+3. Tim Pengembang CC26-PSU344 (Internal Team) Lima anggota tim yang masing-masing berperan sebagai Data Scientist, AI Engineer, dan Full-Stack Developer. Mereka adalah pelaksana langsung seluruh proses pengembangan platform dari awal hingga selesai.
+4. Mentor dan Fasilitator Coding Camp 2026 Pihak yang memberikan bimbingan teknis dan arahan selama pengembangan berlangsung, sekaligus menilai kelayakan dan kualitas solusi yang dihasilkan.
+5. DBS Foundation Selaku sponsor dan penyelenggara program, DBS Foundation berkepentingan memastikan proyek yang dihasilkan memberikan dampak nyata bagi masyarakat dan selaras dengan misi pengembangan SDM berbasis teknologi.
+6. Penyedia Dataset (Kaggle) Menyediakan Resume Dataset dan Job Role Dataset yang menjadi fondasi utama analisis dan pelatihan model. Kualitas dataset ini berpengaruh langsung terhadap performa sistem.
+
+PHASE 2: PROJECT PLANNING
+C. Sumber Daya Proyek
+1. Front-End & Back-End Node.js, Express.js, React.js, Vite, Tailwind CSS, Bootstrap, Axios, Flask/FastAPI, MongoDB/PostgreSQL, Vercel/Netlify.
+2. Artificial Intelligence TensorFlow (Functional API/Keras), PyTorch (opsional), Hugging Face Transformers, OpenAI API (opsional), TensorBoard, SavedModel/.keras.
+3. Data Science Python (Pandas, NumPy), Scikit-learn, Matplotlib, Seaborn, Plotly, Jupyter Notebook, Streamlit, Streamlit Cloud.
+4. Infrastruktur & Deployment Git & GitHub, Docker, GCP/AWS/Railway/Render, Postman, Figma.
+5. Dataset & Referensi Kaggle Resume Dataset, Job Role Dataset (Kaggle/LinkedIn), Paper NLP Resume Parsing, Research Job Recommendation System, dan dokumentasi resmi setiap library yang digunakan.
+
+D. Kegiatan / Tugas yang Diperlukan
+Data Scientist 1 (Nendi Bagus Setiawan) Bertugas melakukan pengumpulan data, data wrangling (cleaning, assessing, preprocessing), Exploratory Data Analysis (EDA), feature engineering, pembuatan visualisasi data, penyusunan data dictionary, dan menyiapkan dataset final untuk kebutuhan modeling.
+Data Scientist 2 (Muhammad Sofyan Arifin) Bertugas membangun model klasifikasi kesiapan kerja, evaluasi model (accuracy, precision, recall, F1), hyperparameter tuning, membangun dashboard interaktif menggunakan Streamlit, deployment dashboard ke Streamlit Cloud, serta menyusun laporan teknis.
+AI Engineer (Fauzan Ahsanudin Alfikri) Bertugas membangun model NLP untuk CV parsing dan skill extraction, mengembangkan sistem rekomendasi jalur karir berbasis LLM, membuat API model menggunakan Flask/FastAPI, monitoring training dengan TensorBoard, dan mengintegrasikan model ke backend.
+Full-Stack Developer 1 (Muchsin Hidayat Julianto) Bertugas membangun RESTful API, mengelola database, mengintegrasikan backend dengan model AI/ML, menangani fitur upload CV, serta melakukan deployment aplikasi ke platform cloud.
+Full-Stack Developer 2 (M. Faridh Awalludin Harahap) Bertugas merancang UI/UX di Figma, mengembangkan tampilan frontend menggunakan React.js dan Tailwind CSS, membangun visualisasi data pada dashboard, menghubungkan frontend ke backend via Axios, dan melakukan deployment ke Vercel/Netlify.
+
+E. Jadwal / Timeline Proyek
+Proyek Path'Ora dilaksanakan selama kurang lebih dua bulan, mulai dari awal April hingga akhir Mei 2026. Jadwal disusun dalam empat tahap utama dengan tenggat waktu yang realistis berdasarkan kompleksitas setiap tugas:
+Tahap 1 — Project Plan (4 April – 11 April 2026)  SELESAI Pada tahap ini seluruh perencanaan proyek diselesaikan. Kegiatan meliputi pemahaman konsep dan ruang lingkup proyek, pembagian tugas antar anggota tim berdasarkan learning path, serta penyelesaian dokumen Project Plan secara menyeluruh. Tahap ini telah berhasil diselesaikan tepat waktu.
+Tahap 2 — Working On Project Fase 1 (11 April – 24 April 2026)  ON-GOING Tahap ini merupakan awal eksekusi teknis proyek. Full-Stack Developer 2 mulai mengerjakan pembuatan antarmuka frontend (UI/UX), sementara tim Data Scientist dan AI Engineer berfokus pada pencarian, pengumpulan, dan eksplorasi awal dataset dari Kaggle. Target akhir tahap ini adalah tersedianya desain frontend awal dan dataset yang siap untuk diproses lebih lanjut.
+Tahap 3 — Working On Project Fase 2 (24 April – 1 Mei 2026)  ON-GOING Tahap ini merupakan fase pengembangan inti yang paling intensif. Kegiatan yang dilaksanakan secara paralel meliputi: pelatihan dan ekspor model machine learning oleh tim Data Scientist, pembangunan sistem backend oleh Full-Stack Developer 1, integrasi model DS & AI ke dalam sistem backend, serta integrasi API model LLM ke dalam platform. Target akhir tahap ini adalah seluruh komponen utama sistem sudah saling terhubung dan berjalan secara fungsional.
+Tahap 4 — Evaluating (1 Mei – 15 Mei 2026)  ON-GOING Pada tahap evaluasi, tim melakukan pengujian menyeluruh terhadap seluruh fitur yang telah dikembangkan, mengidentifikasi bug atau kekurangan yang perlu diperbaiki, serta melakukan revisi berdasarkan hasil evaluasi. Seluruh metrik performa model juga dievaluasi kembali untuk memastikan target akurasi ?85% tercapai.
+Tahap 5 — Finishing Project (15 Mei – 31 Mei 2026)  ON-GOING Tahap akhir mencakup proses hosting dan deployment penuh platform ke lingkungan produksi, review hasil akhir secara menyeluruh, penyesuaian dan perbaikan final, serta persiapan presentasi proyek. Di akhir tahap ini, platform Path'Ora diharapkan sudah dapat diakses secara publik dan siap dipresentasikan kepada mentor dan penilai program Coding Camp 2026.
+
+
